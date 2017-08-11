@@ -4,4 +4,7 @@
 # Setuptools distribution folder.
 /dist/
 
-# Python egg metadata, regenerated from source files by setuptools.
+# Local Anki automation tools
+generateList.py
+wlist.txt
+translation.txt
