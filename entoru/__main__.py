@@ -14,13 +14,13 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-from .translate import translate
+import entoru
 
 if __name__ == "__main__":
     import sys
     if len(sys.argv) != 2:
-        print("Usage..")
-        print("enrute.py house\nдом")
+        print("Usage\n")
+        print("python -m entoru house\nдом\n")
         sys.exit()
     word = sys.argv[1]
-    print(translate(word))
+    print(entoru.translate(word))
